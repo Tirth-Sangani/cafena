@@ -1,0 +1,886 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 3</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="Assets/css/bootstrap.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="Assets/css/all.min.css">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="Assets/css/style.css">
+
+</head>
+
+<body>
+
+    <section>
+        <div class="container">
+            <div class="row d-flex py-4 justify-content-md-between">
+                <div class="contact-details mb-4 mb-lg-0 d-flex col-12 col-lg-6 justify-content-lg-start justify-content-center">
+                    <ul class="d-flex flex-wrap align-items-center justify-content-center gap-3">
+                        <li class="d-none d-lg-block">
+                            <img src="Assets/Images/logo-black.png">
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone pe-2"></i>
+                            <span>91 800 458 568</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot pe-2"></i>
+                            <span>WASINGTON BASEBEN</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="icon flex-wrap col-12 col-lg-6 d-flex align-items-center justify-content-lg-end justify-content-center">
+                    <ul class="col-12 col-sm-12 col-md-12 col-lg-7 justify-content-center justify-content-lg-end d-flex flex-wrap text-center gap-2">
+                        <li>
+                            <i class="fa-brands fa-twitter rounded"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-facebook-f rounded"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-youtube rounded"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram rounded"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-google-plus-g rounded"></i>
+                        </li>
+                    </ul>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-5 pt-4 pt-lg-0 d-flex justify-content-center justify-content-lg-end ">
+                        <button class="rounded-2 main-button ms-md-0 ms-lg-0">TESTY COFFEE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="offcanvas offcanvas-end d-none d-lg-block" id="login">
+        <div class="offcanvas-header">
+            <img src="Assets/Images/logo-black.png" alt="">
+            <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="mb-5">
+                <h5><strong>ABOUT US</strong></h5>
+                <p class="line">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud nisi ut aliquip ex ea
+                    commodo consequat.
+                </p>
+                <button class="rounded-2 main-button">CONTACT US</button>
+            </div>
+            <div>
+                <h5><strong>CONTACT US</strong></h5>
+                <ul class="my-3">
+                    <li class="my-2">
+                        <span><i class="fas fa-map-marker-alt text-brown"></i></span>
+                        <span class="text-grey ms-2">Bowery St., New York, USA</span>
+                    </li>
+                    <li class="my-2">
+                        <span><i class="fa-solid fa-phone text-brown"></i></span>
+                        <span class="text-grey ms-2">+1255-568-6523</span>
+                    </li>
+                    <li class="my-2">
+                        <span><i class="fas fa-envelope-open-text text-brown"></i></span>
+                        <span class="text-grey ms-2">information@gmail.com</span>
+                    </li>
+                </ul>
+                <ul class="mt-3 icon d-flex flex-wrap text-center gap-2">
+                    <li>
+                        <i class="fa-brands fa-twitter rounded"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-facebook-f rounded"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-instagram rounded"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-google-plus-g rounded"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <header class="sticky-top">
+        <nav class="navbar text-dark py-4">
+            <div class="container">
+                <div class="d-block d-lg-none">
+                    <img src="Assets/Images/logo-black.png">
+                </div>
+                <div class="nav d-none d-lg-block col-9">
+                    <div class="w-100">
+                        <ul class="d-flex">
+                            <li class="position-relative">
+                                <a href="#">HOME</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="#">ABOUT</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="#">MENU</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="#">RESERVATION</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="#">PAGES</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="#">SHOP</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="w-100 ">
+                        <ul class="d-flex mb-2 mb-md-0 text-dark gap-4 align-items-center  justify-content-end">
+                            <li class="d-block">
+                                <a href="#" class="ms-0 mb-2 ms-md-2 mb-md-0 text-dark aa"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                            </li>
+                            <li class="d-none d-lg-block">
+                                <a href="#login" class="ms-0 mb-2 ms-md-2 mb-md-0 text-dark"
+                                    data-bs-toggle="offcanvas"><i class="fa-solid fa-bars"></i></a>
+                            </li>
+                            <li class="d-block d-lg-none">
+                                <a href="#login1" class="ms-0 mb-2 ms-md-2 mb-md-0 text-dark"
+                                    data-bs-toggle="offcanvas"><i class="fa-solid fa-bars"></i></a>
+                            </li>
+                            <li class="d-block">
+                                <a href="#categories" class="ms-0 ms-md-2 text-warning text-dark"
+                                    data-bs-toggle="offcanvas"><i class="fa fa-shopping-basket"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="offcanvas offcanvas-end d-block d-lg-none offcanvas-one" id="login1">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item col-6" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                    aria-selected="true">MENU</button>
+            </li>
+            <li class="nav-item col-6" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">INFO</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                tabindex="0">
+                <div class="offcanvas-header">
+                    <img src="Assets/Images/logo-black.png" alt="">
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="d-flex justify-content-between my-4">
+                        <a href="#" class="text-dark"><strong>HOME</strong></a>
+                        <a href="#" class="plus">+</a>
+                    </div>
+                    <div class="my-4">
+                        <a href="#" class="text-dark"><strong>ABOUT</strong></a>
+                    </div>
+                    <div class="my-4">
+                        <a href="#" class="text-dark"><strong>MENU</strong></a>
+                    </div>
+                    <div class="my-4">
+                        <a href="#" class="text-dark"><strong>RESERVATION</strong></a>
+                    </div>
+                    <div class="d-flex justify-content-between my-4">
+                        <a href="#" class="text-dark"><strong>PAGES</strong></a>
+                        <a href="#" class="plus">+</a>
+                    </div>
+                    <div class="d-flex justify-content-between my-4">
+                        <a href="#" class="text-dark"><strong>SHOP</strong></a>
+                        <a href="#" class="plus">+</a>
+                    </div>
+                    <div class="my-4">
+                        <a href="#" class="text-dark"><strong>CONTACT</strong></a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
+                <div class="offcanvas-header">
+                    <img src="Assets/Images/logo-black.png" alt="">
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="mb-5">
+                        <h5><strong>ABOUT US</strong></h5>
+                        <p class="line">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud nisi ut aliquip ex
+                            ea
+                            commodo consequat.
+                        </p>
+                        <button class="rounded-2 main-button ">CONTACT US</button>
+                    </div>
+                    <div>
+                        <h5><strong>CONTACT US</strong></h5>
+                        <ul class="my-3">
+                            <li class="my-2">
+                                <span><i class="fas fa-map-marker-alt text-brown"></i></span>
+                                <span class="text-grey ms-2">Bowery St., New York, USA</span>
+                            </li>
+                            <li class="my-2">
+                                <span><i class="fa-solid fa-phone text-brown"></i></span>
+                                <span class="text-grey ms-2">+1255-568-6523</span>
+                            </li>
+                            <li class="my-2">
+                                <span><i class="fas fa-envelope-open-text text-brown"></i></span>
+                                <span class="text-grey ms-2">information@gmail.com</span>
+                            </li>
+                        </ul>
+                        <ul class="mt-3 icon d-flex flex-wrap text-center gap-2">
+                            <li>
+                                <i class="fa-brands fa-twitter rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-facebook-f rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-instagram rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-google-plus-g rounded"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="offcanvas offcanvas-end" id="categories">
+            <div class="offcanvas-header">
+                <h5><strong>CART ITEMS - 4</strong></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="off-border py-3">
+                    <div class="col-12 py-2 d-flex align-items-center">
+                        <div class="col-3">
+                            <img src="Assets/Images/tg-1.png" class="img-fluid pe-2">
+                        </div>
+                        <div class="col-7">
+                            <ul>
+                                <li>
+                                    <span>ROREM IPSUM DOLOR SIT AMET.</span>
+                                </li>
+                                <li>
+                                    <span><strong>$19.00</strong></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn-close off-button"></button>
+                        </div>
+                    </div>
+                    <div class="col-12 py-2 d-flex align-items-center">
+                        <div class="col-3">
+                            <img src="Assets/Images/tg-2.png" class="img-fluid pe-2">
+                        </div>
+                        <div class="col-7">
+                            <ul>
+                                <li>
+                                    <span>ROREM IPSUM DOLOR SIT AMET.</span>
+                                </li>
+                                <li>
+                                    <span><strong>$36.00</strong></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn-close off-button"></button>
+                        </div>
+                    </div>
+                    <div class="col-12 py-2 d-flex align-items-center">
+                        <div class="col-3">
+                            <img src="Assets/Images/tg-3.png" class="img-fluid pe-2">
+                        </div>
+                        <div class="col-7">
+                            <ul>
+                                <li>
+                                    <span>ROREM IPSUM DOLOR SIT AMET.</span>
+                                </li>
+                                <li>
+                                    <span><strong>$20.00</strong></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn-close off-button"></button>
+                        </div>
+                    </div>
+                    <div class="col-12 py-2 d-flex align-items-center">
+                        <div class="col-3">
+                            <img src="Assets/Images/tg-4.png" class="img-fluid pe-2">
+                        </div>
+                        <div class="col-7">
+                            <ul>
+                                <li>
+                                    <span>ROREM IPSUM DOLOR SIT AMET.</span>
+                                </li>
+                                <li>
+                                    <span><strong>$20.00</strong></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn-close off-button"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="off-border2 pt-3 pb-2 d-flex justify-content-between">
+                    <h6><strong>SUB TOTAL:</strong></h6>
+                    <h6><strong>$87.00</strong></h6>
+                </div>
+                <div class="d-flex justify-content-between align-items-center py-3">
+                    <button class="rounded-2 main-button main-button2 px-3 py-2 text-dark bg-light">VIEW CART</button>
+                    <button class="rounded-2 main-button main-button2 px-3 py-2 text-dark bg-light">CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="sec1 mb-5 relative">
+        <div class="container">
+            <div class="row text-center text-lg-start align-items-center">
+                <div class="col-12 col-lg-6 aroma order-2 order-lg-1">
+                    <h1 class="bebas">Distinct coffee aroma</h1>
+                    <p class="mb-4 mb-lg-4 mb-md-4">The coffee is brewed by first roasting the green coffee beans over
+                        hot coals in a
+                        brazier. given an opportunity to sample.</p>
+                    <button class="rounded-2 main-button main-button2 mb-2 me-3 text-dark bg-light">TESTY COFFEE</button>
+                    <button class="rounded-2 main-button text-light">READ MORE</button>
+                </div>
+                <div class="col-12 col-lg-6 order-1 order-lg-2 my-4 my-xl-0">
+                    <img src="Assets/Images/hero-img-2-1.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec2 py-3 py-md-5">
+        <div class="container">
+            <div class="row">
+                <div class="w-100 d-none d-xl-block"></div>
+                <div class="col-12 col-sm-6 col-xl-3 pe-0 pe-xl-5 pb-5 text-center text-xl-start">
+                    <span class="year-button rounded-2 position-relative">1992</span>
+                    <h2 class="bebas mt-3">How we Started</h2>
+                    <p class="px-5 px-sm-0 px-lg-5 px-xl-0">Curabitur semper erat a lacusey sedn consequat, sit amet
+                        quamey.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3 pe-0 pe-xl-5 pb-5 text-center text-xl-start">
+                    <span class="year-button rounded-2 position-relative">2002</span>
+                    <h2 class="bebas mt-3">Coffee Beans</h2>
+                    <p class="px-5 px-sm-0 px-lg-5 px-xl-0">Curabitur semper erat a lacusey sedn consequat, sit amet
+                        quamey.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3 pe-0 pe-xl-5 pb-5 text-center text-xl-start">
+                    <span class="year-button rounded-2 position-relative">2014</span>
+                    <h2 class="bebas mt-3">Family Work</h2>
+                    <p class="px-5 px-sm-0 px-lg-5 px-xl-0">Curabitur semper erat a lacusey sedn consequat, sit amet
+                        quamey.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3 pe-0 pe-xl-5 pb-5 text-center text-xl-start">
+                    <span class="year-button rounded-2 position-relative">2019</span>
+                    <h2 class="bebas mt-3">Bangladeshy Grades</h2>
+                    <p class="px-5 px-sm-0 px-lg-5 px-xl-0">Curabitur semper erat a lacusey sedn consequat, sit amet
+                        quamey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec3 position-relative">
+        <div class="container">
+            <div class="row align-items-center text-center text-xl-start">
+                <div class="col-12 col-xl-6 solid">
+                    <img src="Assets/Images/bhabha.png" class="img-fluid position-relative">
+                    <img src="Assets/Images/about-img-2-2.png"
+                        class="position-absolute d-none d-xl-block bottom-0 d-flex coffee">
+                </div>
+                <div class="col-12 col-xl-6 ps-0 ps-xl-5 pt-5">
+                    <button class="rounded-1 small-btn text-light mb-4">ABOUT US</button>
+                    <h2 class="bebas size-55">ONE OF THE BEST COFFEE HOUSE IN YOUR HOME TOWN</h2>
+                    <p class="my-4">
+                        Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a
+                        feugiat urna maximus. Cras massa nibhtincidunt.
+                    </p>
+                    <p class="my-4">
+                        Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis
+                        fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi
+                        nec semper. Lorem ipsum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec4 position-relative">
+        <div class="container py-3 py-md-5">
+            <div class="special-menu text-center mx-0">
+                <button class="rounded-1 small-btn text-light my-3">SPECIAL MENU</button>
+                <h2 class="bebas size-55">CAFENA POPULAR MENU</h2>
+                <div class="menu rounded-2 mt-4 mb-5">
+                    <ul class="d-flex flex-wrap justify-content-center gap-2">
+                        <li>
+                            <a href="#" class="rounded-2 text-light bg-brown border">ALL</a>
+                        </li>
+                        <li>
+                            <a href="#" class="rounded-2">CHOCOLATE</a>
+                        </li>
+                        <li>
+                            <a href="#" class="rounded-2">COFFEE</a>
+                        </li>
+                        <li>
+                            <a href="#" class="rounded-2">SANDWICHES</a>
+                        </li>
+                        <li>
+                            <a href="#" class="rounded-2">SWEETS</a>
+                        </li>
+                        <li>
+                            <a href="#" class="rounded-2">BLACK TEA</a>
+                        </li>
+                        <li>
+                            <a href="#" class="rounded-2">GREAN TEA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-100 d-flex flex-wrap justify-content-center text-center">
+
+                <div class="col col-12 col-lg-6 col-xl-4 pb-5">
+                    <div class="w-100 overflow-hidden rounded-4">
+                        <img src="Assets/Images/menu-1.jpeg" class="img-fluid rounded-4">
+                    </div>
+                    <div class="content text-center py-4 px-4 mx-3 mx-sm-5 mx-xl-4 rounded-4 bg-light position-relative">
+                        <a href="#" class="bebas text-dark">AMERICANO COFFEE</a>
+                        <p class="text-dark">PRICE -<span class="text-brown">$325.00 /</span><span
+                                class="text-offwhite">
+                                <delete>$348</delete>
+                            </span></p>
+                        <ul class="d-flex gap-2 justify-content-center">
+                            <li>
+                                <i class="fa-solid fa-basket-shopping text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-heart text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-eye text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-12 col-lg-6 col-xl-4 pb-5">
+                    <div class="overflow-hidden rounded-4">
+                        <img src="Assets/Images/menu-2.jpg" class="img-fluid rounded-4">
+                    </div>
+                    <div class="content text-center py-4 px-4 mx-3 mx-sm-5 mx-xl-4 rounded-4 bg-light position-relative">
+                        <a href="#" class="bebas text-dark">CAFFÈ LATTE</a>
+                        <p class="text-dark">PRICE -<span class="text-brown">$325.00 /</span><span
+                                class="text-offwhite">
+                                <delete>$348</delete>
+                            </span></p>
+                        <ul class="d-flex gap-2 justify-content-center">
+                            <li>
+                                <i class="fa-solid fa-basket-shopping text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-heart text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-eye text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-12 col-lg-6 col-xl-4 pb-5">
+                    <div class="overflow-hidden rounded-4">
+                        <img src="Assets/Images/menu3.jpg" class="img-fluid rounded-4">
+                    </div>
+                    <div class="content text-center py-4 px-4 mx-3 mx-sm-5 mx-xl-4 rounded-4 bg-light position-relative">
+                        <a href="#" class="bebas text-dark">ESPRESSO RISTRETTO</a>
+                        <p class="text-dark">PRICE -<span class="text-brown">$325.00 /</span><span
+                                class="text-offwhite">
+                                <delete>$348</delete>
+                            </span></p>
+                        <ul class="d-flex gap-2 justify-content-center">
+                            <li>
+                                <i class="fa-solid fa-basket-shopping text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-heart text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-eye text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-12 col-lg-6 col-xl-4 pb-5">
+                    <div class="overflow-hidden rounded-4">
+                        <img src="Assets/Images/menu-4.jpg" class="img-fluid rounded-4">
+                    </div>
+                    <div class="content text-center py-4 px-4 mx-3 mx-sm-5 mx-xl-4 rounded-4 bg-light position-relative">
+                        <a href="#" class="bebas text-dark">ESPRESSO LUNGO</a>
+                        <p class="text-dark">PRICE -<span class="text-brown">$325.00 /</span><span
+                                class="text-offwhite">
+                                <delete>$348</delete>
+                            </span></p>
+                        <ul class="d-flex gap-2 justify-content-center">
+                            <li>
+                                <i class="fa-solid fa-basket-shopping text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-heart text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-eye text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-12 col-lg-6 col-xl-4 pb-5">
+                    <div class="w-100 overflow-hidden rounded-4">
+                        <img src="Assets/Images/menu5.jpg" class="img-fluid rounded-4">
+                    </div>
+                    <div class="content text-center py-4 px-4 mx-3 mx-sm-5 mx-xl-4 rounded-4 bg-light position-relative">
+                        <a href="#" class="bebas text-dark">LATTE MACCHIATO</a>
+                        <p class="text-dark">PRICE -<span class="text-brown">$325.00 /</span><span
+                                class="text-offwhite">
+                                <delete>$348</delete>
+                            </span></p>
+                        <ul class="d-flex gap-2 justify-content-center">
+                            <li>
+                                <i class="fa-solid fa-basket-shopping text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-heart text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-eye text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-12 col-lg-6 col-xl-4 pb-5">
+                    <div class="overflow-hidden rounded-4">
+                        <img src="Assets/Images/menu-6.jpg" class="img-fluid rounded-4">
+                    </div>
+                    <div class="content text-center py-4 px-4 mx-3 mx-sm-5 mx-xl-4 rounded-4 bg-light position-relative">
+                        <a href="#" class="bebas text-dark">CAFÈ AU LAIT</a>
+                        <p class="text-dark">PRICE -<span class="text-brown">$325.00 /</span><span
+                                class="text-offwhite">
+                                <delete>$348</delete>
+                            </span></p>
+                        <ul class="d-flex gap-2 justify-content-center">
+                            <li>
+                                <i class="fa-solid fa-basket-shopping text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-heart text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-eye text-offwhite p-2 border rounded-2"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sec5">
+        <div class="testimonial">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <button class="rounded-1 small-btn text-light my-3">TESTIMONIAL</button>
+                    <h2 class="bebas pb-4 size-55">OUR CUSTOMER REVIEW</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active text-center">
+                            <img src="Assets/Images/tt.png">
+                            <p class="py-4 px-5">
+                                Very good quality of food and service. Vast menu with child friendly items as well as
+                                local seafood and even entrees for those who dont like seafood. Great place! Thanks. We
+                                absolutely love everything there!
+                            </p>
+                            <img src="Assets/Images/tm-author.png" class="pb-5">
+                            <h4 class="name">RASALIN DE WILLAMSON</h4>
+                            <span>FOUNDER & CO</span>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <img src="Assets/Images/tt.png">
+                            <p class="py-4 px-5">
+                                Very good quality of food and service. Vast menu with child friendly items as well as
+                                local seafood and even entrees for those who dont like seafood. Great place! Thanks. We
+                                absolutely love everything there!
+                            </p>
+                            <img src="Assets/Images/tm-author.png" class="pb-5">
+                            <h4 class="name">RASALIN DE WILLAMSON</h4>
+                            <span>FOUNDER & CO</span>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sec6">
+        <div class="container">
+            <div class="d-flex row py-3 py-md-5">
+                <div class="col-12 text-center">
+                    <button class="rounded-1 small-btn text-light my-3">TOP GRADE</button>
+                    <h2 class="bebas pb-4 size-55">WORLD TOP GRADE</h2>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 tg text-center">
+                    <img src="Assets/Images/tg-2-1.jpeg" class="img-fluid mb-3">
+                    <h3 class="bebas ">Americano Grade</h3>
+                    <p class="mx-2 mx-sm-5 mx-xl-0">Curabitur semper erat a lacusey consequat, sit amet quam</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 tg text-center pt-0 pt-xl-5">
+                    <img src="Assets/Images/tg-2-2.jpeg" class="img-fluid mb-3">
+                    <h3 class="bebas">arebica Green</h3>
+                    <p class="mx-2 mx-sm-5 mx-xl-0">Curabitur semper erat a lacusey consequat, sit amet quam</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 tg text-center">
+                    <img src="Assets/Images/tg-2-3.jpeg" class="img-fluid mb-3">
+                    <h3 class="bebas">Mixed Rosted</h3>
+                    <p class="mx-2 mx-sm-5 mx-xl-0">Curabitur semper erat a lacusey consequat, sit amet quam</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 tg text-center pt-0 pt-xl-5">
+                    <img src="Assets/Images/tg-2-4.jpeg" class="img-fluid mb-3">
+                    <h3 class="bebas">Robasta Rosted</h3>
+                    <p class="mx-2 mx-sm-5 mx-xl-0">Curabitur semper erat a lacusey consequat, sit amet quam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec7">
+        <div class="container">
+            <div class="row d-flex align-items-end py-3 py-md-5">
+                <div class="w-100 d-lg-flex align-items-center">
+                    <div class="col-12 col-lg-9 text-center text-lg-start">
+                        <button class="rounded-1 small-btn text-light my-3">NEWS & BLOG</button>
+                        <h2 class="bebas pb-lg-4 size-55">LATEST NEWS & BLOG</h2>
+                    </div>
+                    <div class="col-12 col-lg-3 text-center">
+                        <button class="rounded-2 main-button mb-4 mb-lg-0">LEARN MORE</button>
+                    </div>
+                </div>
+                <div class="w-100 row d-flex justify-content-center mx-auto">
+                    <div class="col col-12 col-md-6 col-xl-4">
+                        <div class="overflow-hidden rounded-3">
+                            <img src="Assets/Images/bb1.jpg" class="img-fluid rounded-3 ">
+                        </div>
+                        <div class="py-4 px-3">
+                            <ul class="blog">
+                                <li class="py-1">
+                                    <span>BY:</span><span class="text-grey">RASALINA</span>
+                                </li>
+                                <li class="py-1 pe-1">
+                                    <a href="#" class="text-dark">Questions Business Must Be Able To Answers</a>
+                                </li>
+                                <li class=" d-flex justify-content-between py-2">
+                                    <a href="#" class="text-grey raw">READ MORE<i
+                                            class="fa-solid fa-arrow-right-long ps-3 arrow"></i></a>
+                                    <i class="fa-solid fa-share-nodes text-grey share"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-6 col-xl-4">
+                        <div class="overflow-hidden rounded-3">
+                            <img src="Assets/Images/bb2.jpg" class="img-fluid rounded-3">
+                        </div>
+                        <div class="py-4 px-3">
+                            <ul class="blog">
+                                <li class="py-1">
+                                    <span>BY:</span><span class="text-grey">RASALINA</span>
+                                </li>
+                                <li class="py-1 pe-4">
+                                    <a href="#" class="text-dark">Build a cool mornig with cafena Coffee</a>
+                                </li>
+                                <li class=" d-flex justify-content-between py-2">
+                                    <a href="#" class="text-grey raw">READ MORE<i
+                                            class="fa-solid fa-arrow-right-long ps-3 arrow"></i></a>
+                                    <i class="fa-solid fa-share-nodes text-grey share"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-6 col-xl-4">
+                        <div class="overflow-hidden rounded-3">
+                            <img src="Assets/Images/bb3.jpeg" class="img-fluid rounded-3 d-block">
+                        </div>
+                        <div class="py-4 px-3">
+                            <ul class="blog">
+                                <li class="py-1">
+                                    <span>BY:</span><span class="text-grey">RASALINA</span>
+                                </li>
+                                <li class="py-1 pe-4">
+                                    <a href="#" class="text-dark">ideal cocktails from our barmen for pefect mood</a>
+                                </li>
+                                <li class=" d-flex justify-content-between py-2">
+                                    <a href="#" class="text-grey raw">READ MORE<i
+                                            class="fa-solid fa-arrow-right-long ps-3 arrow"></i></a>
+                                    <i class="fa-solid fa-share-nodes text-grey share"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="black pt-5 pb-4 position-relative">
+        <div class="container">
+
+            <div class="row py-4 d-flex justify-content-center">
+                <div class="col-12 col-xl-7 d-lg-flex pb-3 pb-xl-0">
+                    <div class="col-12 col-lg-6 d-flex gap-3 pb-4 pb-lg-0 align-items-center   justify-content-xl-start justify-content-center">
+                        <img src="Assets/Images/ft-phone.png">
+                        <span class="text-light">PHONE :</span><span class="text-grey">+88019 339 702 520</span>
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex gap-3 align-items-center justify-content-center justify-content-xl-start">
+                        <img src="Assets/Images/ft-map-marker.png">
+                        <span class="text-light">ADDRESS :</span><span class="text-grey">30 North West New</span>
+                    </div>
+                </div>
+                <div
+                    class="col-12 col-lg-8 col-md-7 col-xl-5 p-2 d-flex align-items-center justify-content-between border-bottom">
+                    <form>
+                        <input type="text" class="form-control ps-2 shadow-none border-0 bg-black text-light"
+                            placeholder="Enter your email">
+                    </form>
+                    <a href="#" class="btn text-light border-0">
+                        <span>SUBSCRIBE</span><i class="fa-solid fa-paper-plane ps-3"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row pt-4 d-flex align-items-end">
+                <div class="col-12 col-xl-7 text-center text-xl-start">
+                    <div class="col-12 mb-3">
+                        <img src="Assets/Images/logo.png" alt="" srcset="">
+                    </div>
+                    <div class="r2 col-12">
+                        <p class="mb-4 mb-xl-0">
+                            Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis
+                            fringilla. Morbi vestibulum
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-5 d-flex justify-content-xl-end">
+                    <div class="icon icon1 col-12 col-xl-6 d-flex justify-content-center">
+                        <ul class="d-flex flex-wrap text-center gap-2">
+                            <li>
+                                <i class="fa-brands fa-twitter rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-facebook-f rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-youtube rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-instagram rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-google-plus-g rounded"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#"><i class="fa-solid fa-arrow-up top ii position-absolute"></i></a>
+    </footer>
+
+    <section class="last black ">
+        <div class="container">
+            <div class="row py-4 d-flex justify-content-center align-items-center">
+                <div class="last-nav col-12 col-lg-9 d-none d-md-block">
+                    <div class="w-100">
+                        <ul class="d-flex gap-5 ">
+                            <li>
+                                <a href="#" class="active">HOME</a>
+                            </li>
+                            <li>
+                                <a href="#">ABOUT</a>
+                            </li>
+                            <li>
+                                <a href="#">MENU</a>
+                            </li>
+                            <li>
+                                <a href="#">RESERVATION</a>
+                            </li>
+                            <li>
+                                <a href="#">PAGES</a>
+                            </li>
+                            <li>
+                                <a href="#">SHOP</a>
+                            </li>
+                            <li>
+                                <a href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 d-flex justify-content-center justify-content-lg-end pt-0 pt-md-3 pt-lg-0">
+                    <a href="#" class="btn btn-black text-white border-0 topup">
+                        GO TOP<i class="fa-solid fa-arrow-up ps-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="Assets/Js/popper.js"></script>
+    <script src="Assets/Js/bootstrap.min.js"></script>
+    <script>const carousel = new bootstrap.Carousel('#myCarousel')</script>
+
+</body>
+
+</html>
